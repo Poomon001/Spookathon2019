@@ -9,7 +9,7 @@
 
     var width = window.innerWidth;
     var height = window.innerHeight;
-    var cursor = { x: width / 2, y: width / 2 };
+    var cursor = { x: height, y: width};
     var particles = [];
 
     function init() {
@@ -42,6 +42,7 @@
         cursor.y = e.clientY;
 
         addParticle(cursor.x, cursor.y);
+        
     }
 
     function addParticle(x, y) {
@@ -82,13 +83,12 @@
 
         // Init, and set properties
         this.init = function (x, y) {
-
             this.velocity = {
                 x: (Math.random() < 0.5 ? -1 : 1) * (Math.random() * 2),
                 y: (-2.5 + (Math.random() * -1))
             };
 
-            this.position = { x: x - 15, y: y - 15 };
+            this.position = { x: x-15 , y: y-15  };
 
             this.element = document.createElement('span');
             this.element.className = "particle-bats"
@@ -125,6 +125,7 @@
             [
                 ".particle-bats {",
                 "position: absolute;",
+                "justify-content: flex-start;",
                 "display: block;",
                 "pointer-events: none;",
                 "z-index: 10000000;",
@@ -132,7 +133,8 @@
                 "height: 20px;",
                 "will-change: transform;",
                 "background-size: contain;",
-                "background-image: url('http://pngimg.com/uploads/ghost/ghost_PNG81.png');",
+                "background-image: url('image/ghost.png');",
+                "background-repeat: no-repeat;",
                 "}"].join('');
 
         var style = document.createElement('style')
