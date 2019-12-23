@@ -73,7 +73,7 @@ function gameStart(mode) {
 			}
 			document.getElementById("container8").style.display = "flex";
 			paragraph += name + "'s friend invites " + name + " to come to his house, but " + name + " denies. "
-			paragraph += name + " is so tired that you decide to catch a cab home. " + name + " gets in the cab and feels awkward as it is so silent until the bus driver asks " + name + " “Do you feel comfortable with my service?” " + name + " replies “it is great to keep a good manner.” He then replies “well, today is my first day on this job. I usually drive a hearse.";
+			paragraph += name + " is so tired that " + name + " decides to catch a cab home. " + name + " gets in the cab and feels awkward as it is so silent until the bus driver asks " + name + " “Do you feel comfortable with my service?” " + name + " replies “it is great to keep a good manner.” He then replies “well, today is my first day on this job. I usually drive a hearse.";
 			break;
 
 		case 8:
