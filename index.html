@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Spookathon Story</title>
+	<title>Spooky Story</title>
 	<!--Boostrap-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -18,17 +18,20 @@
 
 	<link href="mycss.css" rel="stylesheet" type="text/css">
 	<script src="cursor.js"></script>
-	<script type="text/javascript" src='mode.js'>
-		function filltext() {
-			//   document.getElementById("speech-msg").value = returnparagraph();
-			document.getElementById("speech-msg").value = "hello vkicgkdedb";
-		}
+	<script type="text/javascript" src='mode.js'></script>
 
-
-	</script>
 </head>
 
 <body>
+	<div class="fixed-bottom">
+		<div>
+			<h6>Created by</h6>
+		</div>
+		<div>
+			<h6>Vicky Nguyen - Poomon Lo</h6>
+		</div>
+
+	</div>
 	<!--home-->
 	<div class="container" id="container1">
 		<h2 id="header1">start page</h2>
@@ -99,7 +102,7 @@
 			sent to the hospital last evening.
 		</div> -->
 		<div>
-			<button class="btn" id="button3" type="button" onclick="gameStart(17)"></button>
+			<button class="btn" id="button3" type="button" onclick="gameStart(17)">Click me</button>
 			<!-- <button class="btn" id="button3" type="button">Click
 				me</button> -->
 		</div>
@@ -109,7 +112,7 @@
 		<div class="story">
 		</div>
 		<div>
-			<button class="btn" id="button3" type="button" onclick="gameStart(17)"></button>
+			<button class="btn" id="button3" type="button" onclick="gameStart(17)">Click me</button>
 		</div>
 	</div>
 
@@ -205,7 +208,7 @@
 			are the only one in the house.
 		</div> -->
 		<div>
-			<button class="btn" id="submitButton" type="button" onclick="gameStart(17)"></button>
+			<button class="btn" id="submitButton" type="button" onclick="gameStart(17)">Click me</button>
 			<!-- <button class="btn" id="submitButton" type="button">Click me story</button> -->
 		</div>
 	</div>
@@ -229,6 +232,7 @@
 	<script src="text2speech_custom.js"></script>
 	<script src="smoke_background.js"></script>
 	<iframe class="embed-responsive-item" src="/macabre.mp3" style="display: none;"></iframe>
+
 </body>
 
 </html>
