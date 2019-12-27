@@ -7,4 +7,5 @@ User will be given several situations, and they have to choose some actions.
 <br/>
 Then the program will generate a spooky story based on those actions.
 <br/>
-Note: This project has been edited after the competition to make it look a bit better.
+<br/>
+*Note: This project has been edited after the competition to make it look a bit better.
